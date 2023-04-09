@@ -1,0 +1,7 @@
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    padding-right: 2rem;
+    
+}

@@ -1,0 +1,12 @@
+.link-sucesso {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  transition: 0.1s;
+  padding: 1rem;
+}
+
+.link-sucesso:hover {
+  font-weight: 550;
+  text-decoration: underline;
+}
