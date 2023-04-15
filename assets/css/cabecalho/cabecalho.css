@@ -1,12 +1,12 @@
 .cabecalho {
+  background-color:#FFE3D2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
-  height: 50vh;
-  padding: 1rem 2rem;
-  background-image: url(/assets/img/cabecalho.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  height: 20vh;
 
 }
+
+
 
