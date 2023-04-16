@@ -1,8 +1,10 @@
 .img-destaque {
    background-image: url(/assets/img/Sem\ Título-2.png);
    background-repeat: no-repeat;
-   background-size: cover;
-   background-position:top;
-   height: 550px;
+   background-size: 100% 100%;
+   background-position: top;
+   height: 100vh;
+   max-width: 1550px;
    width: 100%;
+  
 }   

@@ -1,3 +1,5 @@
 .contato-whatssap {
-    
+    position: fixed;
+    top: 530px;
+    right: 1rem;
 }
