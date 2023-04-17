@@ -1,3 +1,12 @@
 .menu__item {
   list-style: none;
+  
+ 
+}
+
+@media screen and (max-width: 768px) {
+  #mobile .menu__item {
+    background-color: aliceblue;
+    border-bottom: 1px solid #797878;
+  }
 }

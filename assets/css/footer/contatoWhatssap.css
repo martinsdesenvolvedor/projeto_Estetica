@@ -1,5 +1,12 @@
 .contato-whatssap {
     position: fixed;
-    top: 530px;
-    right: 1rem;
+    top: 400px;
+    right: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .contato-whatssap {
+      top: 700px;
+      right: 0;
+    }
+  }

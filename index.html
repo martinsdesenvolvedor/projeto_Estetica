@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="./assets/css/cabecalho/logo.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/logo-img.css">
     <link rel="stylesheet" href="./assets/css/menu/navegacao.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="./assets/css/menuRedeSocial/redeSociais.css">
+    <link rel="stylesheet" href="./assets/css/menuRedeSocial/menuRedesocial.css">
     <link rel="stylesheet" href="./assets/css/menuRedeSocial/menuRedesocial-lista.css">
     <link rel="stylesheet" href="./assets/css/menuRedeSocial/menuRedesocial-item.css">
     <link rel="stylesheet" href="./assets/css/menuRedeSocial/menuRedesocial-link.css">
@@ -27,7 +29,7 @@
     <link rel="stylesheet" href="./assets/css/sobreMim/conteudoParagrafos.css">
     <link rel="stylesheet" href="./assets/css/sobreMim/conteudoSobre-paragrafo.css">
     <link rel="stylesheet" href="./assets/css/sobreMim/conteudoSobre-titulo.css">
-    <link rel="stylesheet" href="./assets/css/podologia/podologia.css">
+    <link rel="stylesheet" href="./assets/css/podologia/estetica.css">
     <link rel="stylesheet" href="./assets/css/podologia/conteudoEstetica.css">
     <link rel="stylesheet" href="./assets/css/podologia/conteudoPodologia-titulo.css">
     <link rel="stylesheet" href="./assets/css/podologia/beneficios.css">
@@ -44,7 +46,13 @@
     <link rel="stylesheet" href="./assets/css/mapa/mapa-texto.css">
     <link rel="stylesheet" href="./assets/css/mapa/mapa-texto-titulo.css">
     <link rel="stylesheet" href="./assets/css/mapa/mapa-texto-paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/mapa/conteudos.css">
     <link rel="stylesheet" href="./assets/css/mapa/mapa-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/mapa/complemento.css">
+    <link rel="stylesheet" href="./assets/css/mapa/complemento-titulo.css">
+    <link rel="stylesheet" href="./assets/css/mapa/complementos.css">
+    <link rel="stylesheet" href="./assets/css/mapa/complementos-img.css">
+    <link rel="stylesheet" href="./assets/css/mapa/complementos-paragrafo.css">
     <link rel="stylesheet" href="./assets/css/contato/contato.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
     <link rel="stylesheet" href="./assets/css/contato/formulario.css">
@@ -58,6 +66,9 @@
     <link rel="stylesheet" href="./assets/css/footer/conteudoFooter.css">
     <link rel="stylesheet" href="./assets/css/footer/containerFooter.css">
     <link rel="stylesheet" href="./assets/css/footer/containerFooter-paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/footer/copyright.css">
+    <link rel="stylesheet" href="./assets/css/footer/copyright-img.css">
+    <link rel="stylesheet" href="./assets/css/footer/copyright-paragrafo.css">
     <link rel="stylesheet" href="./assets/css/footer/contatoWhatssap.css">   
     <link rel="stylesheet" href="./assets/css/footer/contatoWhatssap-img.css">  
   </head>
@@ -69,19 +80,36 @@
           <img class="logo__img" src="./assets/img/logoMarca1.png" alt="">
         </div>  
         <div class="navegacao">
-          <nav class="menu">
+          <nav class="menu" id="desktop">
             <ul class="menu__lista">
               <li class="menu__item">
-                <a class="menu__link" href="#">Sobre Mim</a>
+                <a class="menu__link" href="#sobre-mim">Sobre Mim</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Estética</a>
+                <a class="menu__link" href="#estetica">Estética</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Tratamentos</a>
+                <a class="menu__link" href="#tratamentos">Tratamentos</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Agendamento/Contato</a>
+                <a class="menu__link" href="#contato">Agendamento/Contato</a>
+              </li>
+            </ul>
+          </nav>
+          
+          <nav class="menu" id="mobile">
+            <ul class="menu__lista">
+              <li class="menu__item">
+                <a class="menu__link" href="#sobre-mim">Sobre Mim</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#estetica">Estética</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#tratamentos">Tratamentos</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contato">Agendamento/Contato</a>
               </li>
             </ul>
           </nav>
@@ -107,9 +135,10 @@
      
     </section>
     <main>
-      <section class="sobre-mim">
+      <section class="sobre-mim" id="sobre-mim">
         <div class="conteudo-sobre"> 
           <h2 class="conteudo-sobre__titulo">Sobre Mim</h2>
+          
           <div class="carrossel">
             <div class="container" id="img">
               <img class="container__img" src="./assets/img/jucilene1.png" alt="">
@@ -122,6 +151,7 @@
               <img class="container__img" src="./assets/img/jucilene8.jpg" alt="">
             </div>                  
           </div>
+          
           <div class="conteudo-paragrafos"> 
             <p class="conteudo-sobre__paragrafo">
               Olá, meu nome é <em>Jucilene Câmara</em>, sou casada, cristã e trabalho com a Estética há 5 anos. Também trabalho na área da Podologia.
@@ -145,7 +175,7 @@
         </div>
       </section>
 
-      <section class="podologia">
+      <section class="estetica" id="estetica">
         <div class="conteudo-estetica">
           <h3 class="titulo-podologia">Estética</h3>
         
@@ -235,22 +265,42 @@
         </div> 
       </section>
 
-      <section class="tratamentos">
+      <section class="tratamentos" id="tratamentos">
         <h3 class="conteudo-tratamentos__titulo">Tratamentos</h3>
       </section>
 
       <section class="mapa">
         <div class="mapa__texto">
-          <h4 class="mapa__texto--titulo">Local de Atendimento: Studio Sampa</h4>
-          <p class="mapa__texto--paragrafo">O Studio Sampa fica localizado no coração de Goiânia</p>
-          <div class="mapa__conteudo">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.531437456419!2d-49.242466322050646!3d-16.69916481062293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef1a90dcef191%3A0xcba1c81d5e85eea7!2sStudio%20Sampa%20Cabelo%20e%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1681074263714!5m2!1spt-BR!2sbr" width="100%" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+            <h4 class="mapa__texto--titulo">Local de Atendimento: Studio Sampa</h4>
+            <p class="mapa__texto--paragrafo">Localizado no coração de Goiânia</p>
+          <div class="conteudos"> 
+            <div class="mapa__conteudo">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.531437456419!2d-49.242466322050646!3d-16.69916481062293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef1a90dcef191%3A0xcba1c81d5e85eea7!2sStudio%20Sampa%20Cabelo%20e%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1681074263714!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="complemento">
+              <h4 class="complemento__titulo">Studio Sampa Cabelo e Estética</h4>
+              <div>
+                <div class="complementos">
+                  <img class="complementos__img" src="./assets/img/localizacao.png" alt="">
+                  <p class="complementos__paragrafo">Rua: 56 Qd. 14B Lt. 11 s/nº - Jd. Goiás - Goiânia</p>
+                </div>
+                <div class="complementos">
+                  <img class="complementos__img" src="./assets/img/relogio.png" alt="">
+                  <p class="complementos__paragrafo">Segunda a Sábado: 08:00 - 18:00 </p>
+                </div>
+                <div class="complementos">
+                  <img class="complementos__img" src="./assets/img/telefone.png" alt="">
+                  <p class="complementos__paragrafo">(62) 3241 - 2998</p>
+                </div>  
+              </div>
+            </div>
           </div>
         </div>
 
       </section>
 
-      <section class="contato">
+      <section class="contato" id="contato">
         <h4 class="contato__titulo">Agende seu horário</h4>
         <div class="formulario">
             <img class="imagem-formulario" src="./assets/img/logoMarca1.png" alt="">
@@ -282,14 +332,21 @@
     <footer>
       <div class=conteudo-footer>
         <div class="container-footer">
-          <img class="container-footer_img" src="./assets/img/jucilene7.jpg" alt="">
+          <img class="container-footer_img" src="./assets/img/jucilene10.jpg" alt="">
           <p class="container-footer__paragrafo">Jucilene Câmara</p>
+        </div>
+        <div class="Copyright">
+          <img class="Copyright__img" src="./assets/img/logoMarca1.png" alt="">
+          <p class="Copyright__paragrafo">© JC Estética - 2023</p>
         </div>
         <div class="contato-whatssap">
           <a target="_blank" href="https://api.whatsapp.com/send?phone=5562999797120"><img class="contato-whatssap__img" src="./assets/img/zap2.png" alt=""></a>
         </div>
       </div>  
     </footer>
+    <script src="./assets/js/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/funcao.js"></script>
     <script src="./assets/js/script.js"></script>
+    
   </body>
 </html>

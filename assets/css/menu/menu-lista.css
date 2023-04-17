@@ -1,4 +1,16 @@
-.menu__lista {
+#desktop .menu__lista {
   display: flex;
 
 }
+
+#mobile .menu__lista {
+  position: absolute;
+  width: 100%;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  display: none;
+ 
+}
+
+

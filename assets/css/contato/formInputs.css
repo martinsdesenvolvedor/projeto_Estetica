@@ -4,3 +4,10 @@
   width: 500px;
 
 }
+
+@media screen and (max-width: 768px) {
+  .form-inputs {
+    width: 100%;
+    
+  }
+}

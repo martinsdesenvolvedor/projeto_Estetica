@@ -4,5 +4,11 @@
     margin: 0 auto;
     padding: 0 6rem;
    
-
 }
+
+@media screen and (max-width: 768px) {
+    .conteudo-paragrafos {
+      padding: 0.5rem;
+      margin: 0;
+    }
+  }

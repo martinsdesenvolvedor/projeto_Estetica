@@ -3,3 +3,12 @@
     background: #FFE3D2;
     
 }
+
+@media screen and (max-width: 768px) {
+    .mapa {
+      padding: 3rem 0.5rem 2rem 0.5rem;
+      
+    }
+
+
+  }

@@ -2,3 +2,9 @@
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .form-inputs__label {
+    font-size: 1.5rem;
+  }
+}

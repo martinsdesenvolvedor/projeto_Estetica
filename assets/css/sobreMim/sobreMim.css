@@ -3,3 +3,10 @@
   background: #FFE3D2;
  
 }
+
+@media screen and (max-width: 768px) {
+  .sobre-mim {
+    padding: 3rem 0.5rem;
+    
+  }
+}

@@ -1,5 +1,15 @@
 .conteudo-sobre__paragrafo {
   text-align: justify;
-  line-height: 1.7rem;
+  line-height: 1.9rem;
   text-indent: 1.5rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .conteudo-sobre__paragrafo {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
+  }
 }
