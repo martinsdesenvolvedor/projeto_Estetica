@@ -1,0 +1,13 @@
+.swiper {
+    width: 700px;
+    height: 450px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper {
+        width: 350px;
+        
+       
+    }
+}

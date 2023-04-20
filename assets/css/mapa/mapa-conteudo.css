@@ -1,15 +1,15 @@
 .mapa__conteudo {
-   width: 900px;
+   width: 500px;
    height: 300px;
-   padding: 0 9rem;
+  
+  
 }
 
 @media screen and (max-width: 768px) {
    .mapa__conteudo {
-      width: 350px;
+      width: 340px;
       height: 300px;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
      
    }
  }

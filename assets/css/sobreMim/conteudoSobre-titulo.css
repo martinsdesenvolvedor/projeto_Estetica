@@ -4,3 +4,11 @@
   color: rgb(80, 25, 68);
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .conteudo-sobre__titulo {
+    margin-bottom: 1rem;
+    
+  }
+}
+
