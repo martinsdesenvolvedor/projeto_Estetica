@@ -1,0 +1,11 @@
+.microagulhamento {
+    width: 100%;
+   
+    background-image: url(/assets/img/microagulhamento.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+

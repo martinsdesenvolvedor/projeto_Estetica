@@ -1,0 +1,14 @@
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}

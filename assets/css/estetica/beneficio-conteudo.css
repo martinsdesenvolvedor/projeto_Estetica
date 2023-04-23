@@ -1,0 +1,11 @@
+.beneficio__conteudo {
+  width: 100%;
+  height: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .beneficio__conteudo {
+    height: 200px;
+    
+  }
+}
