@@ -8,4 +8,11 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+ .microagulhamento {
+    background-size: cover;
+ }
+    
+}
+
 

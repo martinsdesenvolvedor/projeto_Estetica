@@ -1,0 +1,10 @@
+#lista {
+    padding: 2rem 8rem;
+}
+
+@media screen and (max-width: 768px) {
+    #lista{
+       padding: 1rem 3rem;
+    }
+       
+   }

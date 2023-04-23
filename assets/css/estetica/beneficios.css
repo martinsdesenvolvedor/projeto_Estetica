@@ -9,6 +9,6 @@
   .beneficios {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    justify-content: center;
   }
 }

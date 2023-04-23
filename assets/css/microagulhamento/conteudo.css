@@ -1,0 +1,13 @@
+#conteudo {
+    padding: 1rem 2rem 2rem 2rem;
+    width: 60%;
+    margin: 0 auto;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    #conteudo {
+       width: 100%;
+    }
+       
+   }

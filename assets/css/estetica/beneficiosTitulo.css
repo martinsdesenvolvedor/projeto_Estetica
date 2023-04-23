@@ -1,3 +1,11 @@
 .beneficios-titulo {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo-estetica {
+    font-size: 1.5rem;
+  }
 }

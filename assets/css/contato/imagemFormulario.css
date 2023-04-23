@@ -1,6 +1,7 @@
 .imagem-formulario {
   width: 270px;
   height: 350px;
+  
 }
 
 @media screen and (max-width: 768px) {

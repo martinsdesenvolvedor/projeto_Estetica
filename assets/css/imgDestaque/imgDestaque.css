@@ -11,6 +11,6 @@
 @media screen and (max-width: 768px) {
    .img-destaque{
      background-size: cover;
-     height: 50vh;
+     height: 100vh;
    }
  }

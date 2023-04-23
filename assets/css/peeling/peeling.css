@@ -5,5 +5,12 @@
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
-    height: 1000px;
+    
 }
+
+@media screen and (max-width: 768px) {
+    .peeling {
+       background-size: cover;
+    }
+       
+   }
