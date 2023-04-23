@@ -4,7 +4,8 @@
   text-align: justify;
   line-height: 1.4rem;
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
+  text-indent: 1rem;
 }
 
 @media screen and (max-width: 768px) {
