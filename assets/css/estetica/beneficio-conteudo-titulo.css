@@ -1,6 +1,13 @@
 .beneficio__conteudo--titulo {
   margin-top: 0;
-  padding: 1rem 0 0 0;
+  padding: 1rem 0 0.2rem 0;
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .beneficio__conteudo--titulo {
+    padding: 0.7rem 0 0.2rem 0;
+   
+  }
 }
