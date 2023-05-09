@@ -1,0 +1,15 @@
+.beneficio-saibamais {
+    background: rgb(246, 187, 116); 
+    width: 50%;
+    height: 28px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.15rem;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 2px 2px 2px rgb(198, 196, 194);
+    
+ }
+ 
+ .beneficio-saibamais:hover {
+    background-color: rgb(218, 125, 3);
+ }

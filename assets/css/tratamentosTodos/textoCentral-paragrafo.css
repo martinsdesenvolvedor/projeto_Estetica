@@ -1,0 +1,8 @@
+.texto-central__paragrafo {
+    text-align: justify;
+    line-height: 1.7rem;
+    text-indent: 2rem;
+    margin-bottom: 1.5rem;
+    width: 350px;
+    margin-top: 2rem;
+}

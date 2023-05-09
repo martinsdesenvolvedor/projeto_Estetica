@@ -1,0 +1,8 @@
+.tratamento__conteudo--paragrafo {
+    text-align: justify;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    text-indent: 1rem;
+    max-height: 75px;
+}

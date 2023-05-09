@@ -1,0 +1,12 @@
+.beneficio-saibamais__link {
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    color: black;
+    font-weight: 500;
+    
+
+}
+
+.beneficio-saibamais__link:hover {
+    font-weight: 700;
+}

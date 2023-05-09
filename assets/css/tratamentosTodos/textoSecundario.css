@@ -1,0 +1,7 @@
+.texto-secundario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 6rem;
+    margin-bottom: 3rem;
+}

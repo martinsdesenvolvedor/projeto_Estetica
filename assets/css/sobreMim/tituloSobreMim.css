@@ -1,4 +1,4 @@
-.conteudo-sobre__titulo {
+.titulo-sobre-mim {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: rgb(80, 25, 68);
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .conteudo-sobre__titulo {
+  .titulo-sobre-mim {
     margin-bottom: 1rem;
     
   }

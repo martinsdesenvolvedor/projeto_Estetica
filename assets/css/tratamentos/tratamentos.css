@@ -1,11 +1,10 @@
 .tratamentos {
-  padding: 2rem 2rem 3rem 2rem;
-  background: #FDFDFD;
+  padding: 2rem 5rem 3rem 5rem;
+  background: linear-gradient(#FEFEFE, #F4CDA3, #FEFEFE);
 }
 
 @media screen and (max-width: 768px) {
-  .tratamentos {
-    padding: 3rem 0.5rem 2rem 0.5rem;
+  
     
-  }
+  
 }
