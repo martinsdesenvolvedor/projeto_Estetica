@@ -1,5 +1,7 @@
-.mapa-site__titulo {
-    text-align: center;
+.titulo-footer-menu {
+    margin-bottom: 1.3rem;
     font-weight: 600;
-   
+    color: white;
+    padding-left: 2rem;
+    font-size: 1.3rem;
 }

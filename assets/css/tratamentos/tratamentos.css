@@ -1,6 +1,6 @@
 .tratamentos {
   padding: 2rem 5rem 3rem 5rem;
-  background: linear-gradient(#FEFEFE, #F4CDA3, #FEFEFE);
+  background: #F2F2F2;
 }
 
 @media screen and (max-width: 768px) {

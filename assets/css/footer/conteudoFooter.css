@@ -1,9 +1,14 @@
+footer {
+    background: #6b7c94;
+}
+
 .conteudo-footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 2rem;
-    background: #e7a785;
+    padding: 4rem 8rem 2rem 8rem;
+    
+    
 }
 
 @media screen and (max-width: 768px) {
