@@ -7,8 +7,9 @@
   height: 13vh;
   position: fixed;
   z-index: 2;
-  box-shadow: 0.5px 0.5px 0.5px rgb(87, 86, 86);
+  box-shadow: 0.5px 0.5px 0.5px rgb(218, 213, 213);
   padding: 1.2rem 0 0.5rem 0;
+  top: 0;
 }
 
 @media screen and (max-width: 768px) {
