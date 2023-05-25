@@ -1,6 +1,6 @@
 .locais-sessao {
    width: 400px;
-   background: #f7f7f7;
+   background: linear-gradient(#11de37, white);
    padding: 1rem 1.5rem 1.5rem 2.5rem;
    border-radius: 10px;
    box-shadow: 5px 5px 5px black;
